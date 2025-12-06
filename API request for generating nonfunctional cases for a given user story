@@ -1,0 +1,18 @@
+{
+"model": "openai/gpt-oss-120b",
+"messages": [
+    {
+    "role": "user",
+    "content": "Generate non-functional test cases for the user story, [Mandatory] Include Performance test, Security, Reliability, Availability, Scalability, Usability, Compatability, Logging and Audit cases. Here is the user story - Enable users to transfer funds between their own accounts, As a retail banking customer, I want the ability to transfer money between my linked savings and current accounts  So that I can manage my funds efficiently without visiting a branch"
+
+},
+    {
+    "role": "system",
+    "content": "You are an AI agent specialized in generating non-functional test cases for the given user story"
+},
+ {
+    "role": "assistant",
+    "content": "Generate the output in excel downloadable format"
+}
+]
+}
